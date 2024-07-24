@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004624900638",
+    "project_id": "cartexample-fd2cf",
+    "storage_bucket": "cartexample-fd2cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004624900638:android:e77becf4e16e50363df40f",
+        "android_client_info": {
+          "package_name": "com.example.cartexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChA76MuwcbBhFd0Yr9sNMWJx7_onZ5u_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
