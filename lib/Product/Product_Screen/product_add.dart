@@ -1,4 +1,3 @@
-import 'package:cartexample/firebase_services.dart';
 import 'package:flutter/material.dart';
 
 class AddProduct extends StatefulWidget {
@@ -14,7 +13,6 @@ class _AddProductState extends State<AddProduct> {
   final TextEditingController productPrice = TextEditingController();
   final TextEditingController productDesc = TextEditingController();
 
-  final FirebaseService _services = FirebaseService();
 
   @override
   Widget build(BuildContext context) {
@@ -44,13 +42,7 @@ class _AddProductState extends State<AddProduct> {
 
 
           ElevatedButton(onPressed: (){
-            _services.productAdd(ProductModel(
 
-              pName: productName.text,
-              pDesc: productDesc.text,
-              pPrice: productPrice.text
-
-            ), context);
           }, child: const Text("Add Product"))
 
         ],

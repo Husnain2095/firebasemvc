@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAMydcc-t5TDUu-2Bh3-Joy14w6quBm25A',
-    appId: '1:1004624900638:web:8fcd5370a17789813df40f',
-    messagingSenderId: '1004624900638',
-    projectId: 'cartexample-fd2cf',
-    authDomain: 'cartexample-fd2cf.firebaseapp.com',
-    storageBucket: 'cartexample-fd2cf.appspot.com',
-    measurementId: 'G-M668TY8LLM',
+    apiKey: 'AIzaSyD0TACtcICIi3DoIhrNSki5urbkt5aFk_k',
+    appId: '1:568266338396:web:e42bb62a8dc7d510b47699',
+    messagingSenderId: '568266338396',
+    projectId: 'fir-mvc-305b6',
+    authDomain: 'fir-mvc-305b6.firebaseapp.com',
+    storageBucket: 'fir-mvc-305b6.appspot.com',
+    measurementId: 'G-06S2WFQETZ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyChA76MuwcbBhFd0Yr9sNMWJx7_onZ5u_k',
-    appId: '1:1004624900638:android:e77becf4e16e50363df40f',
-    messagingSenderId: '1004624900638',
-    projectId: 'cartexample-fd2cf',
-    storageBucket: 'cartexample-fd2cf.appspot.com',
+    apiKey: 'AIzaSyCp_os6Wlh9Lv0lrP_fgk9Ad8wul8xAPvU',
+    appId: '1:568266338396:android:99d458ab9ba2eeaeb47699',
+    messagingSenderId: '568266338396',
+    projectId: 'fir-mvc-305b6',
+    storageBucket: 'fir-mvc-305b6.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDFXEsM0B10r7kZq-Yze94dEs-YRChqJig',
-    appId: '1:1004624900638:ios:c03b5efffc4b692b3df40f',
-    messagingSenderId: '1004624900638',
-    projectId: 'cartexample-fd2cf',
-    storageBucket: 'cartexample-fd2cf.appspot.com',
+    apiKey: 'AIzaSyA1ZdtLv5XWKX6z0Bhq6MCZ8MnL9tuNTgc',
+    appId: '1:568266338396:ios:eacb473e8aaf6bdfb47699',
+    messagingSenderId: '568266338396',
+    projectId: 'fir-mvc-305b6',
+    storageBucket: 'fir-mvc-305b6.appspot.com',
     iosBundleId: 'com.example.cartexample',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDFXEsM0B10r7kZq-Yze94dEs-YRChqJig',
-    appId: '1:1004624900638:ios:03309bc1880f23d93df40f',
-    messagingSenderId: '1004624900638',
-    projectId: 'cartexample-fd2cf',
-    storageBucket: 'cartexample-fd2cf.appspot.com',
+    apiKey: 'AIzaSyA1ZdtLv5XWKX6z0Bhq6MCZ8MnL9tuNTgc',
+    appId: '1:568266338396:ios:050fef7919f8404eb47699',
+    messagingSenderId: '568266338396',
+    projectId: 'fir-mvc-305b6',
+    storageBucket: 'fir-mvc-305b6.appspot.com',
     iosBundleId: 'com.example.cartexample.RunnerTests',
   );
 }

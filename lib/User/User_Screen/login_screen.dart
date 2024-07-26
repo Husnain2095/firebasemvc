@@ -1,6 +1,7 @@
+import 'package:cartexample/User/User_Controller/user_controller.dart';
+import 'package:cartexample/User/User_Model/user_model.dart';
 import 'package:flutter/material.dart';
 
-import 'firebase_services.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -13,7 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController userEmail = TextEditingController();
   final TextEditingController userPassword = TextEditingController();
 
-  final FirebaseService _services = FirebaseService();
+  FirebaseUserServices uServices = FirebaseUserServices();
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +37,10 @@ class _LoginScreenState extends State<LoginScreen> {
           const SizedBox(height: 10,),
 
           ElevatedButton(onPressed: (){
-            _services.userLogin(userEmail.text, userPassword.text, context);
+            uServices.loginUser(UserModel(
+              userEmail: userEmail.text,
+              userPassword: userPassword.text
+            ), context);
           }, child: const Text("Login"))
 
         ],

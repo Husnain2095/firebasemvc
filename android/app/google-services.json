@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1004624900638",
-    "project_id": "cartexample-fd2cf",
-    "storage_bucket": "cartexample-fd2cf.appspot.com"
+    "project_number": "568266338396",
+    "project_id": "fir-mvc-305b6",
+    "storage_bucket": "fir-mvc-305b6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1004624900638:android:e77becf4e16e50363df40f",
+        "mobilesdk_app_id": "1:568266338396:android:99d458ab9ba2eeaeb47699",
         "android_client_info": {
           "package_name": "com.example.cartexample"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyChA76MuwcbBhFd0Yr9sNMWJx7_onZ5u_k"
+          "current_key": "AIzaSyCp_os6Wlh9Lv0lrP_fgk9Ad8wul8xAPvU"
         }
       ],
       "services": {
